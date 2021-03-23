@@ -1,7 +1,6 @@
 ### DemoDoreCMS 结构目录
 
-```
-oas-system
+```js
 |
 |-- README.md
 |
