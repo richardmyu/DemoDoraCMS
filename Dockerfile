@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 RUN npm install --registry=https://registry.npm.taobao.org
-RUM npm install mammoth node-schedule --registry=https://registry.npm.taobao.org
+RUN npm install mammoth node-schedule --registry=https://registry.npm.taobao.org
 
 EXPOSE ${PORT}
 

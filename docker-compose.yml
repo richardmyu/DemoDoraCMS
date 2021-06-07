@@ -22,7 +22,7 @@ services:
     networks:
       - nodeapp-network
     command:
-      - mongorestore --host mongodb -d demodoracms --drop ./app/databak/demodoracms
+      - mongorestore --host mongodb -d vue-dora-cms --drop ./app/databak/vue-dora-cms
 
 networks:
   nodeapp-network:
